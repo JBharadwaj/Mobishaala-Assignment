@@ -1,0 +1,101 @@
+.main-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.container {
+    background-image:url('https://mobishaala.com/assets/img/background.jpg?temp4');
+    width:100%;
+}
+.sub-container {
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center; 
+    height:100vh;
+    color:white;
+}
+.spanContainer {
+    color:rgb(255, 230, 0);
+}
+.heading {
+    font-weight:bold;
+}
+
+.headingPara {
+    font-weight:bold;
+}
+
+.video1 .video2 {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center; 
+}
+
+
+
+.address {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    background-color:red;
+    color:white;
+    width:100%;
+}
+
+.button {
+    height:50px;
+    color:white;
+    background-color:red;
+}
+
+.list-item {
+    color:white;
+}
+
+a {
+    margin:3px;
+}
+
+
+.video1 {
+    display:block;
+}
+.video2 {
+    display:none;
+}
+
+
+@media screen and (min-width: 767px) {
+    .video2 {
+        display:block;
+    }
+    .video1 {
+        display:none;
+    }
+    .container {
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+
+    }
+
+    .address {
+        flex-direction:row;
+        
+    }
+}
+
+.centered-button {
+    text-align:center;
+    margin-top:5px;
+}
+
+.address-subContainer {
+    padding:5px;
+}
